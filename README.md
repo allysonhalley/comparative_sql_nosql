@@ -16,5 +16,7 @@
 ### git push -u origin master
 
 ## Start code Node+PostgreSQL+Sequelize
+### Go to directory "sqlpg" and execute "npm install" and to up server "npm start"
 
 ## Start code Node+MongoDB
+### Go to directory "nosqlmongo" and execute "npm install" and to up server "npm start"
