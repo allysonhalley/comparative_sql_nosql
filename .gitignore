@@ -1,2 +1,3 @@
 # Dependency directories
-node_modules/
+sqlpg/node_modules/
+sqlpg/package-lock.json
