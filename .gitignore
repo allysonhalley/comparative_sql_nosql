@@ -1,3 +1,5 @@
 # Dependency directories
 sqlpg/node_modules/
 sqlpg/package-lock.json
+nosqlmongo/node_modules/
+nosqlmongo/package-lock.json
