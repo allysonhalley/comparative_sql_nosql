@@ -1,5 +1,4 @@
 const express = require('express');
-const routes = require('./routes');
 
 const bodyParser = require('body-parser');
 
@@ -7,6 +6,8 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(routes);
+
+//Test connection to server
+require('./controllers/authController')(app);
 
 app.listen(3001);
